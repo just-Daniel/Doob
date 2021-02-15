@@ -313,3 +313,56 @@ header .header-top .logo {
 .portfolio .container .portfolio-bottom a {
   color: #ff3946;
 }
+
+/*  Blog */
+
+.blog-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.blog-stories {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.blog-stories .blog-item {
+  width: 370px;
+  height: 350px;
+  box-shadow: 0px 5px 5px rgba(25, 45, 51, 0.15);
+  box-sizing: border-box;
+  padding: 40px;
+}
+.blog-stories .blog-item:hover {
+  background-color: #ff3946;
+  color: #fff;
+}
+.blog-stories .blog-item:hover time {
+  color: #fff;
+}
+.blog-stories .blog-item:hover .blog-arrow::after {
+  content: url(./img/arrow-white.png);
+}
+.blog-stories .blog-item time {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #6e757a;
+}
+.blog-stories .blog-item p {
+  line-height: 30px;
+  font-weight: 400;
+}
+.blog-stories .blog-item .blog-arrow {
+  display: flex;
+  justify-content: flex-end;
+}
+.blog-stories .blog-item .blog-arrow::after {
+  content: url(./img/arrow-red.png);
+}
+
+/*  Contact */
+
+.contact {
+  padding: 100px 0;
+}
