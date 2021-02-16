@@ -316,6 +316,9 @@ header .header-top .logo {
 
 /*  Blog */
 
+.bottom-content {
+  background: url(./img/bg-blog.png) no-repeat right 70%;
+}
 .blog-top {
   display: flex;
   justify-content: space-between;
